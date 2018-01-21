@@ -12,4 +12,4 @@ install:
 before_script:
   - "flake8 --show-source"
 script:
-    python3 main.py
+    python3 test.py
