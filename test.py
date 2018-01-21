@@ -18,5 +18,6 @@ class TestFlaskApi(unittest.TestCase):
         response = self.app.get('/')
         self.assertEqual(response.data.decode(), "Hello World from Python!")
 
+
 if __name__ == "__main__":
     unittest.main()
